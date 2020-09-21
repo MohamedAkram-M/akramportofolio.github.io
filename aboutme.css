@@ -1,0 +1,14 @@
+.aboutme{
+    margin: auto;
+    max-width: 650px;
+    letter-spacing: 3px;
+    line-height: 3;
+    text-shadow: 0 0 black;
+    font-size: 21px;
+    font-family: halva;
+}
+h1{
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+}

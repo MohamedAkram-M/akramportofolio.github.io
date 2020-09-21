@@ -1,0 +1,57 @@
+body{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    background-color: lightblue;
+}
+
+.Profile-Photo{
+  display: flex;
+  justify-content: center;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+.experience{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    display: grid;
+    grid-template-rows: 100px 143px;
+}
+.experience-title{
+    color: black;
+    font-size: 50px;
+    font-family: halva;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+.Places{
+    font-family: caviar dreams;
+    font-size: 23px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.places{
+    background: cadetblue;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.places:hover{
+    cursor: pointer;
+    background-color: violet;
+    color: whitesmoke;
+    transition: ease-in-out 0.1s 0s;
+}

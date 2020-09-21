@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-103_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=af8fec6b98855dc6b7d30bd9b6b9b81c);
+    background-size: cover;
+}
+h1{
+    font-family: bebas neue;
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    float: left;
+    width: 48.99%;
+    padding: 5px;
+}
+a:hover{
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    content: "Watch Video";
+}
